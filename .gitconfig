@@ -1,0 +1,8 @@
+[user]
+	name = Deathlesz
+	email = deathless.mcd@gmail.com
+	signingkey = 15B093ABDAA00FD1
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = master
