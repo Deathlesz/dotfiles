@@ -34,7 +34,8 @@ fi
 
 # decrease sensitivity for mouse
 xinput --set-prop 12 155 0.5 0 0 0 0.5 0 0 0 1
-pgrep sxhkd || sxhkd &
+# pgrep sxhkd || sxhkd &
+setxkbmap -layout us,ru -option grp:caps_toggle
 autorandr --change
 picom -b
 exec awesome
